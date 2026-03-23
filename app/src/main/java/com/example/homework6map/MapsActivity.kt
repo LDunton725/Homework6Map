@@ -48,6 +48,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 .title("Augusta Technical College")
                 .snippet("School Campus")
         )
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(augustaTech, 18f))
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(augustaTech, 15f))
     }
 }
